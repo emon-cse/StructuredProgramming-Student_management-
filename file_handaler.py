@@ -1,4 +1,7 @@
-DATA_FILE = "data.txt"
+import os
+BASE_DIR = r"D:\New Folder\Learning\Software Development\Folder\Structured Programming project"
+DATA_FILE = os.path.join(BASE_DIR, "data.txt")
+
 
 def load_students():
     students = []
