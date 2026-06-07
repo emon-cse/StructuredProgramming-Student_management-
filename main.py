@@ -27,6 +27,7 @@ def main():
 
         elif choice == "3":
             search_student(students)
+            print("This is test")
 
         elif choice == "4":
             delete_student(students)
